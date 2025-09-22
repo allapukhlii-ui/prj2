@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(151, 141, 127);
+    border-radius: 2em;
+    padding: 4em 3em;
+}
+
+body{
+    min-width: 100hv;
+    background-color: linear-gradient(red, orange, yellow, green, blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 3em;
+}
+
+hr{
+    width: 100%;
+    background-color: white;
+    height: 5px;
+    border-radius: 1em;
+    border: none;
+
+}
+
+.timer{
+    font-size: 100em;
+    font-family: cursive;
+}
