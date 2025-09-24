@@ -91,3 +91,78 @@ main{
 }
 
 
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  color: #fff;
+  background-color: rgb(151, 141, 127);
+  border-radius: 1em;
+  padding: 4em 3em;
+  max-width: 500px;
+  margin: 3em auto;
+  
+  
+  border: 3px solid #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.title {
+  font-size: 3em;
+}
+
+hr {
+  width: 100%;
+  background-color: white;
+  height: 5px;
+  border-radius: 1em;
+  border: none;
+}
+
+.timer {
+  font-size: 5em;
+  font-family: cursive;
+}
+
+
+.button-wrapper {
+  display: flex;
+  gap: 1em;
+}
+
+.button-wrapper button {
+  padding: 0.7em 1.5em;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  background: #fff;
+  color: #333;
+  transition: 0.2s;
+}
+
+.button-wrapper button:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
+}
+
+#start{
+    background-color: green;
+}
+
+#stop{
+    background-color: red;
+}
+
+#reset{
+    background-color: blue;
+}
